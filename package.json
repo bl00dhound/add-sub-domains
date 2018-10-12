@@ -1,0 +1,11 @@
+{
+  "name": "add-sub-domains",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "bl00dhound",
+  "license": "MIT"
+}
