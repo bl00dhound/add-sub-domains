@@ -1,0 +1,15 @@
+Vim macros for parsing groovy-json
+
+begin record:
+	[a-z]q
+	commands
+end record:
+	q
+
+start macros:
+	@[a-z]
+
+commands:=
+:%s/"\[/[/g
+:%s/\]"/]/g
+:%s/\\"/"/g

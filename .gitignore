@@ -1,5 +1,5 @@
 .vscode
-config/*
+config/cloudflare.js
 node_modules/
 .DS_Store
 .data
